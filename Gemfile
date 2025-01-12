@@ -7,7 +7,7 @@ gem "webrick", "~> 1.8.1"
 gem "nokogiri", "~> 1.15.0"
 
 # Use a specific version of ffi that works with Ruby 3.0
-gem "ffi", "~> 1.15.5"
+gem "ffi", "~> 1.17.1"
 
 group :jekyll_plugins do
   gem "jekyll-last-modified-at", git: "https://github.com/maximevaillancourt/jekyll-last-modified-at", branch: "add-support-for-files-in-git-submodules"
