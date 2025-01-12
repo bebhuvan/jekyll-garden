@@ -17,7 +17,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.5)
+    ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x86_64-darwin)
+    ffi (1.17.1-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.5-arm64-darwin)
     google-protobuf (3.25.5-x86_64-darwin)
@@ -89,7 +91,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  ffi (~> 1.15.5)
+  ffi (~> 1.17.1)
   jekyll (~> 4.3.0)
   jekyll-last-modified-at!
   nokogiri (~> 1.15.0)
