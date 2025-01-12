@@ -4,7 +4,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll", "~> 4.3.0"
 gem "webrick", "~> 1.8.1"
-gem "nokogiri", "~> 1.15.0"
+gem "nokogiri", "~> 1.18.1"
 
 # Use a specific version of ffi that works with Ruby 3.0
 gem "ffi", "~> 1.15.5"
